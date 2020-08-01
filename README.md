@@ -29,13 +29,14 @@ Things you may want to cover:
 
 ## users テーブル
 
-| Column                | Type   | Options     |
-| --------------------- | ------ | ----------- |
-| nickname              | string | null: false |
-| email                 | string | null: false |
-| password              | string | null: false |
-| last_name_reading     | string | null: false |
-| first_name_reading    | string | null: false |
+| Column                | Type    | Options     |
+| --------------------- | ------- | ----------- |
+| nickname              | string  | null: false |
+| email                 | string  | null: false |
+| password              | string  | null: false |
+| last_name_reading     | string  | null: false |
+| first_name_reading    | string  | null: false |
+| birthday              | integer | null: false |
 
 ### Association
 - has_many :items
@@ -73,3 +74,4 @@ belongs_to :purchases
 
 ### Association
 has_one :items
+
