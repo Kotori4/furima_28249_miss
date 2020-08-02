@@ -88,5 +88,4 @@ has_one :purchase
 
 ### Association
 belongs_to :item
-
-
+belongs_to :user
