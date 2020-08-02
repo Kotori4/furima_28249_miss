@@ -38,7 +38,7 @@ Things you may want to cover:
 | first_name            | string  | null: false |
 | last_name_reading     | string  | null: false |
 | first_name_reading    | string  | null: false |
-| birthday              | integer | null: false |
+| birthday              | date    | null: false |
 
 ### Association
 has_many :items
