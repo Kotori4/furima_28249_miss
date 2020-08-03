@@ -77,6 +77,7 @@ has_one    :purchase
 | building_unit    | string     |                                |
 | phone_number     | string     |default: "", null: false        |
 
+<<<<<<< Updated upstream
 has_one :purchase
 
 ## purchases テーブル
@@ -89,3 +90,7 @@ has_one :purchase
 ### Association
 belongs_to :item
 belongs_to :user
+=======
+### Association
+has_one :items
+>>>>>>> Stashed changes

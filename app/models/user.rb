@@ -3,6 +3,7 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+<<<<<<< Updated upstream
   has_many :items
   has_many :purchases
 
@@ -14,4 +15,6 @@ class User < ApplicationRecord
     validates :first_name_reading, format: { with: /\A[ァ-ヶー－]+\z/, message: "is invalid. Input full-width katakana characters."}
     validates :birthday
   end
+=======
+>>>>>>> Stashed changes
 end
